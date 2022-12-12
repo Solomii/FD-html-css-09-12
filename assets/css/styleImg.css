@@ -1,8 +1,24 @@
-body {
-    background-color: blanchedalmond;
-}
+/* body {
+    background-color: #222222;
+    color: aliceblue;
+    /* font-size: 0; */
+/* } */
 
-.wrapper__img {
+/* p {
+  /* font-size: initial; */
+/* }  */
+
+/* div {
+  display: inline-block;
+  width: 33%;
+  padding: 10px;
+  border: 10px solid teal;
+  box-sizing:border-box;
+  /* font-size: initial; */
+/* }  */
+
+/* .wrapper__img {
+    width: 100%;
     text-align: center;
 }
 
@@ -11,5 +27,36 @@ body {
     padding: 10px;
     border: 5px solid chocolate;
     margin: 50px;
+    border-radius: 50% 50% 0 0;
     /* box-sizing: border-box; */
+/* }
+
+span,
+div {
+    padding: 0.5em;
+    margin: 30px;
+    background-color: beige;
+    border: 5px solid chocolate;
+}
+
+div {
+    width: 200px;
+    display: inline-block;
+}
+
+.middle {
+    margin: 40px 10px;
+}  */
+
+.wrapper__img {
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border: 5px double #333;
+  border-radius:50%;
+  object-fit: cover;
+  object-position: top right;
 }
