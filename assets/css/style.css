@@ -1,24 +1,53 @@
 body {
-  background-color: aquamarine;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Roboto Slab', serif;
- 
+    background-color: aquamarine;
 }
 
 a {
-  font-size: 26px;
+    font-size: 26px;
+    color:inherit;
 }
 
 a.logo {
-  font-size: 56px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-h1{
-  font-size: 100%;
+.font-accent {
+  font-size: 46px;
+  background-color:yellow;
+  font-family: "Playfair Display", serif;
 }
 
-p{
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.article {
   font-size: 24px;
-  line-height: 1.5em;
-  font-family: 'Roboto Slab', serif;
+  color: chocolate;
+}
+
+.subtitle {
+  font-size: 36px;
+  text-align: right;
+  text-decoration: dotted red overline 0.5em;
+}
+
+p {
+    font-size: 24px;
+    line-height: 1.5em;
+    font-weight: 700;
+    line-height: 1.3em;
+    text-align: justify;
+    text-indent: 3em;
+    font-family: "Roboto Slab", serif;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.btn {
+
 }
