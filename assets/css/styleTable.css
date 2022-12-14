@@ -1,0 +1,121 @@
+:root {
+  font-size: 20px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+table {
+    width: 80%;
+    border: 3px solid #333;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+/* *:hover {
+  color:yellow;
+} */
+
+th,
+td {
+    /* width: 20%; */
+    padding: 0.5em;
+    border: 3px solid #333;
+    vertical-align: top;
+}
+
+.size500 {
+    width: 40%;
+}
+
+.size {
+    width: 15%;
+}
+
+.aling-right {
+    text-align: right;
+}
+
+/* two part class */
+
+/* універсальний селектор - усі елементи */
+* {
+    box-sizing: border-box;
+}
+
+/* селектор нащадка */
+.section div {
+    border: 5px solid green;
+}
+/* селектор дочірніх */
+.section > div {
+    border: 1px solid red;
+}
+
+/* селектор сусіднього елементу */
+div+div{
+    background-color: yellow;
+}
+
+p {
+  color:pink;
+}
+
+a {
+  color: inherit;
+}
+
+a:link {
+  /* невідвідуване*/
+  background-color:aquamarine;
+}
+
+a:visited {
+  /* відвідуване */
+  background-color:blueviolet;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color:yellow;
+
+}
+
+a:focus,
+blockquote:focus {
+  border:5px solid darkolivegreen;
+  outline: none;
+}
+
+a:active {
+  /*  */
+  background-color:aqua;
+}
+
+div>div:not(.inner__container) {
+  font-style:italic;
+}
+
+.btn:hover:not(a){
+  background-color:blue;
+}
+
+.main-navigation__list>li:first-child,
+.main-navigation__list>li:last-child{
+  list-style: none;
+}
+
+.main-navigation__list>li:nth-child(5){
+  font-size: 2em;
+}
+
+/* .main-navigation__list>li:nth-child(even){
+  font-style: oblique;
+  background-color:blanchedalmond;
+} */
+
+.main-navigation__list>li:nth-child(5n+3){
+  font-style: oblique;
+  background-color:blanchedalmond;
+}

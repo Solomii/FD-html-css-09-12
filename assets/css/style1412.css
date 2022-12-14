@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    /* margin:0; */
+}
+
+div {
+    border: 2px solid red;
+}
+
+.wrapper {
+    /* min-width: 300px; */
+    width: 90%;
+    /* max-width: 900px; */
+    /* min-height: 36px; */
+    height: 100vh;
+    /* max-height: 200px; */
+    margin: auto;
+    overflow-y: scroll;
+
+    /* background-color: rgb(2, 0, 36); */
+    background-image: radial-gradient( circle,
+        rgba(2, 0, 36, 1) 0%,
+        rgb(197, 145, 196) 16%,
+        rgb(157, 214, 226) 100%
+    ),url(./../img/fs_cat.png);;
+
+    /* background-image: url(./../img/fs_cat.png); */
+    background-size: 100px 100px, cover;
+    background-position: top right;
+    background-repeat:repeat-x, no-repeat;
+    background-attachment: fixed;
+}
+
+.inner__block {
+    width: 90%;
+    height: 50%;
+    margin: 5%;
+    background: rgba(232, 196, 106, 0.5);
+    /* overflow: hidden; */
+    /* overflow-y: scroll; */
+}
+
+/* .inner__block>p {
+  width: 600px;
+} */

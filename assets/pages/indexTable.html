@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+  <link rel="stylesheet" href="/assets/css/styleTable.css">
+</head>
+<body>
+  <nav class="main-navigation">
+    <ul class="main-navigation__list">
+      <li><a class="main-navigation__link main-navigation__link__current" href="">link 1</a></li>
+      <li><a tabindex="1" href="">link 2</a></li>
+      <li><a href="">link 3</a></li>
+      <li><a tabindex="3" href="">link 4</a></li>
+      <li><a tabindex="2" href="">link 5</a></li>
+    </ul>
+  </nav>
+  <blockquote tabindex="4">Lorem ipsum dolor sit amet.</blockquote>
+  <table>
+    <caption>Title table</caption>
+    <thead>
+      <tr>
+        <th class="size500">title column 1</th>
+        <th class="size">title column 2</th>
+        <th class="size">title column 3</th>
+        <th class="size">title column 4</th>
+        <th class="size">title column 5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2" rowspan="2">text 1</td>
+        <td>text 2</td>
+        <td>text 3</td>
+        <td rowspan="3">text 4</td>
+        <td>text 5</td>
+      </tr>
+      <tr>
+        <!-- <td>text 1</td>
+        <td>text 2</td> -->
+        <td>text 3</td>
+        <!-- <td>text 4</td> -->
+        <td>text 5</td>
+      </tr>
+      <tr>
+        <td>text 1</td>
+        <td>text 2</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, temporibus!</td>
+        <!-- <td>text 4</td> -->
+        <td>text 5</td>
+      </tr>
+      <tr>
+        <td>text 1</td>
+        <td>text 2</td>
+        <td>text 3</td>
+        <td>text 4</td>
+        <td>text 5</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>total 1</td>
+        <td colspan="4" class="aling-right">total 5</td>
+      </tr>
+    </tfoot>
+  </table>
+  <span>line element</span>
+
+  <section class="section">
+    <div class="inner__container">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime alias amet ab rerum nostrum ipsam reiciendis doloribus itaque nihil velit. Aspernatur dignissimos quam repudiandae eius, harum similique illum excepturi quibusdam quod distinctio iste labore ea sint quis perspiciatis assumenda id rem impedit, corrupti praesentium explicabo!</p>
+    </div>
+    <div class="inner__container">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos velit obcaecati quia itaque? Provident libero reprehenderit dolorum, maiores culpa, veniam qui, iure iusto pariatur a quasi! Fugit corrupti recusandae nobis, quis enim, temporibus expedita voluptates illum itaque ducimus voluptatibus porro. Cumque voluptas perferendis officia rem.</p>
+    </div>
+    <div class="inner__container">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos velit obcaecati quia itaque? Provident libero reprehenderit dolorum, maiores culpa, veniam qui, iure iusto pariatur a quasi! Fugit corrupti recusandae nobis, quis enim, temporibus expedita voluptates illum itaque ducimus voluptatibus porro. Cumque voluptas perferendis officia rem.</p>
+    </div>
+    <p> <a href="">Lorem ipsum dolor sit amet.</a><a href="">Lorem ipsum dolor sit amet.</a>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, veniam? Esse, asperiores nam velit laboriosam magnam doloremque facere, quaerat vero fugiat consequatur assumenda dolore. Molestias autem labore ut maxime quod!</p>
+  </section>
+  <button class="btn">text</button>
+    <a href="">top</a>
+  
+</body>
+</html>
